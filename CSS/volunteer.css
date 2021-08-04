@@ -132,3 +132,19 @@ body {
     text-indent: 1rem;
   }
   
+  /* STYLING OF EVERYTHING INSIDE THE FORM CONTAINER */
+.form-style {
+    background: rgba(250, 250, 250, 0.28);
+    padding: 15px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+  }
+  .form_grid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 5%;
+    align-items: center;
+  }
+  .active{
+    color: #ffc001 !important;
+  }
