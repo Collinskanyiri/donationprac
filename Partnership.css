@@ -47,3 +47,7 @@
   .pizza-types .box-container .box:hover .image{
     top:0;
   }
+
+  .pizza-types .box-container .box:hover .content{
+    transform: translateY(100%);
+  }
