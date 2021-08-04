@@ -38,3 +38,65 @@
             </a>
         </nav>
     </header>
+
+
+    <h1>
+        Talk to Us
+    </h1>
+    <div class="main">
+        <div class="contact_holder">
+            <div class="up">
+                <p>Feel free to get in touch with us<br>We are always open to discuss any ideas and listen to your opinions.
+                    <br>We also happy to help if you encounter any problems with the process</p><br>
+
+                <p>Simply fill out the form...</p>
+                <div>
+                    <i class="mdi mdi-facebook"></i>
+                    <i class="mdi mdi-twitter"></i>
+                    <i class="mdi mdi-instagram"></i>
+                    <i class="mdi mdi-github"></i>
+                    <i class="mdi mdi-youtube"></i>
+                </div>
+            </div>
+            <div class="down">
+                <p>0745167195</p>
+                <p>fadhilifoundations@gmail.com</p>
+                <p>Ngong Lane Plaza,Nairobi.</p>
+            </div>
+        </div>
+
+        <form action="/action_page.php" class="label">
+
+            <input type="text" name="name" id="Name" placeholder="Full Name" required><br>
+
+            <input type="text" name="email" id="email" placeholder="name@gmail.com" required><br>
+
+            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Talk to us" required> </textarea>
+
+            <button type="submit" class="submit">Submit</button>
+
+        </form>
+
+
+
+
+    </div>
+
+
+</body>
+<script>
+    function displayNavItems() {
+        var navToggle = document.getElementById("nav-items");
+        if (navToggle.style.display === "block") {
+            navToggle.style.display = "none";
+        } else {
+            navToggle.style.display = "block";
+        }
+    };
+
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+</script>
+
+</html>
