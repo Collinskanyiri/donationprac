@@ -23,3 +23,9 @@
     top:-100%; left:0;
   }
   
+  .pizza-types .box-container .box .content{
+    text-align: center;
+    background:#fff;
+    padding:2rem;
+  }
+  
