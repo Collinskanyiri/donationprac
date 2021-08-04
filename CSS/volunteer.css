@@ -74,3 +74,61 @@ caption {
 ul{
   list-style: none;
 }
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 30px;
+    width: 100%;
+    background: 
+     linear-gradient(0deg, rgba(1, 65, 39, 0.8), rgba(1, 65, 39, 0.6)),
+     url("https://unsplash.com/photos/SPS796v4KmM/download?force=true&w=1920.jpg")
+        no-repeat center center fixed;
+    /* background-blend-mode: multiply; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: geometria;
+  }
+  
+  /* STYLING OF TAGS IN HEADER ELEMENT */
+  header nav {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icon {
+    display: none;
+    color:#FFA401;
+    font-size: 2rem;
+  }
+  
+  #nav-items {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  
+  #nav-items a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2em;
+    font-size: 17px;
+    transition: ease-in-out .5s;
+  }
+  #nav-items a:hover{
+    color: #FFA401;
+  }
+  h1 {
+    font-size: 4rem;
+    text-indent: 1rem;
+  }
+  
