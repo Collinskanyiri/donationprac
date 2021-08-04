@@ -43,3 +43,7 @@
     color:#666;
     padding:1rem 0;
   }
+
+  .pizza-types .box-container .box:hover .image{
+    top:0;
+  }
