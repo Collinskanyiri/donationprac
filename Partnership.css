@@ -38,3 +38,8 @@
     color:#333;
   }
   
+  .pizza-types .box-container .box .content p{
+    font-size: 1.6rem;
+    color:#666;
+    padding:1rem 0;
+  }
